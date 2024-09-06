@@ -1,0 +1,45 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.env
+
+# Django
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+db.sqlite3
+/static/
+/media/
+
+# Virtual environment
+venv/
+env/
+myworld/   # Your virtual environment directory
+
+# VSCode settings
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*.so
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.log
+
+# IDE-specific files
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
